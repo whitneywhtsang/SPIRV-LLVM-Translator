@@ -232,8 +232,7 @@ inline bool isTypeOpCode(Op OpCode) {
          OC == internal::OpTypeJointMatrixINTEL ||
          OC == internal::OpTypeJointMatrixINTELv2 ||
          OC == OpTypeCooperativeMatrixKHR ||
-         OC == internal::OpTypeTaskSequenceINTEL ||
-         OC == OpTypeUntypedPointerKHR;
+         OC == internal::OpTypeTaskSequenceINTEL;
 }
 
 inline bool isSpecConstantOpCode(Op OpCode) {
